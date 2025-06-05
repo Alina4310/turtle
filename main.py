@@ -75,3 +75,30 @@ done()
 
 
 
+
+
+from turtle import *
+
+shape("turtle")
+colormode(255)
+
+bgcolor("pink")
+speed(3)
+
+pencolor("red")
+pensize(3)
+
+for i in range(6):
+    left(150)
+    forward(30)
+    left(30)
+    forward(100)
+    left(160)
+    forward(100)
+    left(30)
+    forward(30)
+    left(50)
+done()
+
+
+
